@@ -1,0 +1,26 @@
+Instructions
+
+Monte Carlo Assignment
+Please see the attached PDF file for details on what to do for this assignment.  For the excel plot, you can just use the first 100 pair of numbers (Scatter X-Y Plot).  For this assignment, please submit the .cpp file, the text file generated, and the excel spreadsheet with the chart.  In addition, your program should show the estimated PI as a result. 
+Instruction for Excel sheet: You have to plot the Graph using Scatter Plot in Excel and after that draw an arc over the Graph between '1' on X-axis to '1' on Y-axis as shown in sample Excel sheet. Make sure your values in Excel Sheet are different from the sample excel sheet provided and should match the text file you are submitting.
+
+Follow the submitting guidelines that are in the resources section. 
+
+Use the following functions and macro (bolded) to generate random numbers:
+srand(time(0));        
+time(0) is the seed value for generating random numbers
+In order to use the function, add the following to the top of the program: #include <time.h>
+
+rand(); 
+This will generate a random number in integer range i.e from 0 to 32767
+
+RAND_MAX
+This macro's value is the maximum value returned by the rand function.This value is library dependent but is granted to be at least 32767.
+
+If you need more help with generating random numbers, please refer to the c++ reference page:
+http://www.cplusplus.com/reference/clibrary/cstdlib/rand/
+
+For information on importing text files to excel, please refer to the Microsoft page:
+https://support.office.com/en-za/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba
+
+The attached sample_output.cpp file is a simple example to show how to use a 'for' loop to print values to a file.

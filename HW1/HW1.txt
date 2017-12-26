@@ -1,0 +1,9 @@
+Write a program that does the followings:
+1. Ask the user to enter five numbers.
+2. Find the maximum and minimum of those numbers.
+3. Display the maximum and minimum.
+
+Please notice the following:
+1. For comparison, use 'if' statements.
+
+Make sure to comment your code and submit both the .cpp file and the screenshot of your result.

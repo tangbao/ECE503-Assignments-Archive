@@ -1,0 +1,102 @@
+Instructions
+
+please implement a shopping list that uses a linked list to store the information.
+
+
+The program should have a menu for the user to enter items into the list.  It should store the item information into list nodes and chain them together to form a linked list.  For each item, please store the item number and the item name.  For example:
+
+Item No     Item Name
+1                Pizza
+3                Juice
+7                Bread
+
+Implement a class LinkedList as prototyped below (header files don't have to be exactly the same as below, but they should support the same functionality).  The main program should provide the user with the following options:
+1.  Add a new node at the beginning
+2.  Add a new node at the end
+3.  Remove the beginning node
+4.  Remove the end node
+5.  Remove a node from the list by entering an item number
+(If the item cannot be found, the program should display "Item Not Found".)
+6.  Remove a node from the list by entering an item name
+(If the item cannot be found, the program should display "Item Not Found".)
+7.  Print out the list
+8.  Quit the program
+
+Please print out the list after each operation.  Make sure you use a linked list for the storage of the items.  All of the operations should be done with the use of the linked list. You don't need to consider the duplication this time. 
+
+You may implement the classes as follows: 
+
+class Node{
+ friend class LinkedList;
+public:
+ Node(string& name, int no)
+  :itemName(name), itemNo(no)
+ {
+  this->next=NULL;
+ }
+private:
+ string itemName;
+ int itemNo;
+ Node *next;
+ 
+};
+
+class LinkedList{
+public:
+ LinkedList();
+ ~LinkedList();
+ int size() const;
+ void addToStart(Node *);
+ void addToEnd(Node *);
+ void printList();
+ bool removeFromStart();
+ bool removeFromEnd();
+ void removeNodeFromList(int);
+ void removeNodeFromList(string);
+private:
+ Node *myHead;
+ Node *myTail;
+ int mySize;
+};
+
+Sample program output:
+
+Welcome to the shopping list program
+Please choose an option:
+1.  Add a new node at the beginning
+2.  Add a new node at the end
+3.  Remove the beginning node
+4.  Remove the end node
+5.  Remove a node from the list by entering an item number
+6.  Remove a node from the list by entering an item name
+7.  Print out the list
+8.  Quit the program
+1
+Please enter product number to insert at beginning
+1
+Please enter the name for the product
+Pizza
+
+List
+Item No Item Name
+1            Pizza
+
+Please choose an option:
+1.  Add a new node at the beginning
+2.  Add a new node at the end
+3.  Remove the beginning node
+4.  Remove the end node
+5.  Remove a node from the list by entering an item number
+6.  Remove a node from the list by entering an item name
+7.  Print out the list
+8.  Quit the program
+2
+Please enter product number to insert at end
+3
+Please enter the name for the product
+Juice
+
+List
+Item No Item Name
+1            Pizza
+3            Juice

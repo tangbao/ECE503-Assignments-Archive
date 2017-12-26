@@ -1,0 +1,29 @@
+Instructions
+Write a program that uses "for" structures to print the following triangular shape  (shape 1). You need to ask the user how many lines he/she wants in the shape (for example, the lines for shape1 is 8). Maximize your use of repetition (using nested 'for' structures) and minimizes the number of output statements (cout).
+
+After you finish the program that prints out the triangular shape, writes another program to print out the diamond shape (shape 2). You need to ask the user to input a maximum number of stars in each line(for example, in shape 2, the maximum number is 9, the line in shape 2 which has the most stars has 9 stars). In the diamond shape, the input maximum number should be odd. If the user doesn't enter an odd number, tell him/her to enter an odd number.
+
+Please attach two .cpp files(one is for triangular shape, the other is for diamond shape) and the screenshots of your result(.jpg)
+
+Shape 1:
+
+*
+**
+***
+****
+*****
+******
+*******
+********
+
+Shape 2:
+
+        *
+      ***
+    *****
+  *******
+*********
+  *******
+    *****
+      ***
+        *

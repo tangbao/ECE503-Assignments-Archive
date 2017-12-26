@@ -1,0 +1,10 @@
+Instructions
+The Rutgers Student Council (RSC) is conducting a poll of who should be the next apprentice. There are 5 candidates to choose from. The RSC has polled 20 students on campus.
+You need to write a program that tallies up the number of votes each candidate received and pronounces a winner.
+
+Please use arrays to implement this assignment.  
+
+You are not allowed to use 'switch' or 'if' statements to count the votes.(except for finding the max)
+If there are more than 1 people who have the same highest vote counts, print there is no winner
+
+Note: It is better if user could input their vote and vote again if they enter the wrong number

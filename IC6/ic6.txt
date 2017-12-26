@@ -1,0 +1,6 @@
+Instructions
+Please implement the functions for the ThreeDimensionalPoint class using the skeleton code.
+
+All the program does is add two 3-D points (x,y and z coordinates) and print out the results.   
+
+Please only modify the threedimensionalpoint.cpp file.

@@ -1,0 +1,53 @@
+Instructions
+As shown in the attachment, please implement a base class 'Shape' and two derived classes 'TwoDimensionalShape' and 'ThreeDimensionalShape'.   The class 'TwoDimensionalShape' should have two derived classes 'Circle' and 'Triangle' and the class 'ThreeDimensionalShape' should have two derived classes 'Sphere' and 'Tetrahedron'.  You can assume that only regular tetrahedrons will be used. You can also assume that the triangles are equilateral.
+
+Each of the two-dimensional shapes (Circle and Triangle) should contain a member function getArea to calculate the area of the two-dimensional shape. Each three-dimensional shape (Sphere and Tetrahedron) should have member functions getArea and getVolume to calculate the surface area and volume of three-dimensional shapes respectively.  Write a program to test this implementation. If the shape is two dimensional, its area should be displayed. If the shape is a three-dimensional shape, display its surface area and volume.
+
+The instances of the objects should be able to access functions to set and get the center of the shapes.  The functions for the 2D shapes should be able to handle 2D coordinates (x,y) while the functions for the 3D shapes should be able to handle 3D coordinates (x,y,z).  Please also implement a print function to print the appropriate information to the screen.  
+
+Please implement this in a way that efficiently uses INHERITANCE.
+
+For this and all future assignments that use classes, please use separate files for the classes (header and .cpp files) and main function. 
+
+Please make sure to zip up the whole project directory.
+
+Possible sample output :
+
+Please choose a shape or 0 to exit:
+1. Circle
+2. Triangle
+3. Sphere
+4. Regular Tetrahedron 
+0. Exit
+Choice: 1
+
+You have chosen the circle.
+
+Please enter the center of the circle (x-coordinate and then y-coordinate):
+10 5
+
+Please enter the radius of the circle:
+3.5
+
+The circle with radius 3.5 that is located at (10,5) has:
+An area of 38.4845 
+
+Please choose a shape or 0 to exit:
+1. Circle
+2. Triangle
+3. Sphere
+4. Regular Tetrahedron 
+0. Exit
+Choice: 4
+
+You have chosen the regular tetrahedron.
+
+Please enter the edge length of the regular tetrahedron.
+5
+
+Please enter the center of the regular tetrahedron (x-coordinate, y-coordinate, then z-coordinate):
+10 5 5
+
+The regular tetrahedron with edge length 5 at location (10,5,5) has:
+Surface area of 43.3013
+Volume of 14.7314

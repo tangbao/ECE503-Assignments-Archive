@@ -1,0 +1,50 @@
+Please develop class "Polynomial". The internal representation of a polynomial is an array of terms. Each term contains a coefficient and an exponent. For example, term 2x4 has the coefficient 2 and the exponent 4. 
+
+Develop a complete class containing proper constructor and destructor functions as well as 'set' and 'get' functions. The class should also provide the following overloaded operator capabilities:
+
+a) Overload the addition operator (+) to add two polynomials.
+
+b) Overload the subtraction operator (-) to subtract two polynomials
+
+c) Overload the assignment operator to assign one polynomial to another
+
+d) Overload the multiplication operator (*) to multiply two polynomials.
+
+e) Overload the addition assignment oper3ator (+=), subtraction assignment operator (-=) and multiplication assignment operator (*=)
+
+f) Overload the output operator (<<) so that it can display the polynomials.  For example, if in the main function we have:
+
+Polynomial poly1;
+//more code
+cout<<poly1;
+
+It would print out the polynomial (for example: 2x^2 + 3x^3).
+
+
+Please use 3 files for this assignment. The header file that contains the class declaration (.h file) should be named "Polynomial_YourName.h". The class definition file (.cpp file) should be named "Polynomial_YourName.cpp" and the class implementation should be named "Main_YourName.cpp" file.
+
+A sample output of the program:
+
+Enter the number of polynomial terms: 2
+Enter coefficient and exponent : 2 2
+Enter coefficient and exponent: 3 3
+
+Enter number of polynomial terms 3:
+Enter coefficient and exponent : 1 1
+Enter coefficient and exponent : 2 2
+Enter coefficient and exponent : 3 3
+
+(please print out the polynomial in the following two lines out using the overloaded output operator)
+First Polynomial is : 2x^2 + 3x^3
+Second Polynomial is : 1x + 2x^2 + 3x^3
+
+Adding polynomial yields: 1x + 4x^2 + 6x^3
++= the polynomial yields: 1x + 4x^2 + 6x^3
+
+Subtracting the polynomial yield : -1x
+-= the polynomials yields : -1x
+
+Multiplying the polynomials yields: 2x^3 + 7x^4 + 12x^5 + 9x^6
+*= the polynomial yields: 2x^3 + 7x^4 + 12x^5 + 9x^6
+
+Assume that the greatest degree of an input polynomial will be 6 so that you can use a fixed size for the arrays. Make sure to take into account the size of an array necessary when you multiply two polynomials.

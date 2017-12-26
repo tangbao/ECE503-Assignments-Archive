@@ -1,0 +1,5 @@
+Instructions
+Write a recursive function that take as arguments a string s and a character c and returns the number of times that c occurs in s.
+Note:
+1.You should input the string and character in the main function before the recursive call.
+2. The string can contain any ASCII character.

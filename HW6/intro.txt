@@ -1,0 +1,26 @@
+Instructions
+
+Please implement the booklist assignment using classes.  
+
+You can modify and reuse much of the code you wrote for Homework 4, but make sure to implement the functions as members of the class Booklist. 
+
+The main function should create a new instance of the Booklist class.  For example:
+
+Booklist book_list;
+
+Notice: your class must have both public methods and private instances
+
+and then call the functions to do the necessary operation. For example, for printing the list:
+
+book_list.print();
+
+Please use 3 files for this assignment. The class declaration goes in the header file. The class definition should be in a .cpp file, and the class implementation could be in the Main file. Adhere to the naming instructions.
+
+ 
+
+"Booklist_lastName.h".
+
+"Booklist_lastName.cpp" 
+
+"Main_lastName.cpp"
+
